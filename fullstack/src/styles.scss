@@ -2,3 +2,59 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.app {
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step1 {
+    padding: 0 40px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 2rem;
+    background-color: rgb(1, 1, 85);
+    background-image: linear-gradient(to right, rgb(1, 1, 85), rgb(1, 85, 53));
+    color: white;
+}
+
+.step2 {
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.step2 .header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.actions > div > img {
+    height: 200px;
+}
+
+.details {
+    background-color: white;
+    padding: 20px;
+}
+
+.button {
+    background: #00009c;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
